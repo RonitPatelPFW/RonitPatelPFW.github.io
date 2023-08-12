@@ -26,5 +26,4 @@ Paint
 
 Recommendation Engine
 - This project is currently being developed in Python, React Native.
-- This will be a mobile application
-- This is a recommendation engine that I am currently developing. My goals are to make a site where, users can get recommended content from a variety of categories, such movies, music, books. So far, I am learning the basics of a recommendation engine and how it works, different types, etc.
+- This is a recommendation engine that I am currently developing. My goals are to make a site where, users can get recommended content from a variety of categories, such movies, music, books. So far, I am learning the basics of a recommendation engine and how it works, different types, etc. My end goal is to create a mobile and web application.
