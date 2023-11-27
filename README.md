@@ -32,10 +32,10 @@
                 <li>Collaborated with cross-functional teams to deliver high-quality projects on time.</li>
             </ul>
         </article>
-    -->
+ 
         <!-- Add more experience entries as needed -->
     </section>
-
+    -->
     <section id="projects">
         <h2>Projects</h2>
 
@@ -50,7 +50,7 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: ronitpatel884@gmail.com</p>
-        <p>LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/ronit-patel-62a2a81a4/)</p>
+        <p>LinkedIn: linkedin.com/in/ronit-patel-62a2a81a4</p>
         <p>GitHub: github.com/RonitPatelPFW</p>
     </section>
 
