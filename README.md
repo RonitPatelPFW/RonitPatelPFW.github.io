@@ -19,29 +19,12 @@
             engaging and user-friendly websites.
         </p>
     </section>
-
-    <!--
-    <section id="experience">
-        <h2>Experience</h2>
-
-        <article>
-            <h3>Company XYZ</h3>
-            <p>Web Developer | January 2020 - Present</p>
-            <ul>
-                <li>Developed responsive and dynamic websites using HTML, CSS, and JavaScript.</li>
-                <li>Collaborated with cross-functional teams to deliver high-quality projects on time.</li>
-            </ul>
-        </article>
- 
-        <!-- Add more experience entries as needed -->
-    </section>
-    -->
     <section id="projects">
         <h2>Projects</h2>
 
         <article>
-            <h3>Project A</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in leo auctor, luctus justo eu, fermentum sapien.</p>
+            <h3>Wordle With a Twist</h3>
+            <p>Coming Soon</p>
         </article>
 
         <!-- Add more project entries as needed -->
