@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: black; /* Light gray background color */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add some padding to the body */
+body {
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 2em;
+}
+
+/* Style the subheading */
+p {
+    font-size: 1.2em;
+}
+
+/* Style the sections */
+section {
+    margin: 20px 0;
+}
+
+/* Style the links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
