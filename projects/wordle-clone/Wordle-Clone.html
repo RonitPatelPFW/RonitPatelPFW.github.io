@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: black;
+            color: white;
+        }
+
+        h1,h2,h3 {
+            color: white;
+        }
+
+        code {
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        pre {
+            padding: 10px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Wordle Clone</h1>
+
+    <p>Welcome to the Wordle Clone! I created a simple word-guessing game inspired by the classic Wordle game. In this
+        clone, you'll be challenged to guess a hidden word within a limited number of attempts. The game features a
+        difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts.</p>
+
+    <h2>How to Play</h2>
+
+    <ol>
+        <li>
+            <h3>Objective:</h3>
+            <ul>
+                <li>The goal is to guess the hidden word.</li>
+                <li>The length of the word is displayed as a box, representing each letter's position.</li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Difficulty Settings:</h3>
+            <ul>
+                <li>Choose your preferred difficulty level:
+                    <ul>
+                        <li><strong>Easy:</strong> 6 attempts.</li>
+                        <li><strong>Medium:</strong> 4 attempts.</li>
+                        <li><strong>Hard:</strong> 2 attempts.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Making a Guess:</h3>
+            <ul>
+                <li>Enter a guess in the input field and submit.</li>
+                <li>The game will provide feedback after each guess:
+                    <ul>
+                        <li><strong>Correct Letter and Position (Green Color):</strong> The letter is in the right
+                            place.</li>
+                        <li><strong>Correct Letter, Wrong Position (Yellow Color):</strong> The letter is in the word but
+                            not in the right place.</li>
+                        <li><strong>Incorrect Letter (Grey Color):</strong> The letter is not in the word.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Winning:</h3>
+            <ul>
+                <li>If you guess the word within the allotted attempts, the user wins!</li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Losing:</h3>
+            <ul>
+                <li>If you exhaust all attempts without guessing the word, the game ends.</li>
+                <li>The hidden word will be revealed.</li>
+            </ul>
+        </li>
+
+    </ol>
+
+    <h2>Installation</h2>
+
+    <ol>
+        <li>
+            <p>Clone the repository:</p>
+            <pre><code>https://github.com/RonitPatelPFW/Wordle-Clone.git</code></pre>
+        </li>
+
+        <li>
+            <p>Navigate to the project directory:</p>
+            <pre><code>cd Wordle-Clone</code></pre>
+        </li>
+
+        <li>
+            <p>Install dependencies:</p>
+            <pre><code>npm install</code></pre>
+        </li>
+    </ol>
+
+    <h2>Usage</h2>
+
+    <ol>
+        <li>
+            <p>Start the game:</p>
+            <pre><code>npm start</code></pre>
+        </li>
+
+        <li>
+            <p>The app should automatically open in your default browser.</p>
+        </li>
+
+        <li>
+            <h3>Play the Game:</h3>
+            <ul>
+                <li>Choose your difficulty level and start guessing!</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Word Source</h2>
+
+    <p>The hidden word in this Wordle Clone is dynamically fetched from the official New York Times Wordle site via a JSON
+        file. Unlike using a static list, I dynamically retrieve the single Wordle word available for the day at the time
+        of playing. This ensures a unique and fresh word for each playthrough.</p>
+
+    <p>The game fetches the word from the New York Times Wordle site to maintain freshness and unpredictability. This
+        approach adds an extra layer of challenge and fun to the classic Wordle game, keeping players on their toes with
+        each daily playthrough.</p>
+
+    <h2>Technologies Used</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Express/Node.js</li>
+    </ul>
+
+    <h2>Acknowledgments</h2>
+
+    <p>This Wordle Clone was created with inspiration from the classic Wordle game.</p>
+
+    <p>Have fun playing the Wordle Clone! 🎉</p>
+
+</body>
+
+</html>
