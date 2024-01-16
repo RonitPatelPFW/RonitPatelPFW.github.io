@@ -11,49 +11,70 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #1f2223;
+            color: white;
         }
 
         nav {
-            background-color: #5f5d5d;
-            color: #fff;
-            padding: 10px;
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
         }
 
-        li > a {
-            color: white;
-        }    
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
 
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
+        nav li {
+            float: left;
+
         }
 
-        h1, h2, h3 {
-            color: #333;
+        nav a {
+            display: block;
+            color: white;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #1f2223;
         }
 
         p {
-            color: #666;
+            margin-bottom: 20px;
         }
 
         ol, ul {
-            list-style-type: none;
+            margin-bottom: 20px;
         }
 
         pre {
-            background-color: #f4f4f4;
+            background-color: #333;
+            color: white;
             padding: 10px;
+            border-radius: 5px;
         }
 
         code {
-            font-family: 'Courier New', monospace;
-            color: #333;
+            color: #8af;
         }
+
+/* Additional styles as needed */
 
     </style>
 </head>
@@ -61,11 +82,14 @@
 <body>
     <nav>
         <ul>
+            <li><a href="../../index.html">Home</a></li>
             <li><a href="../project.html">Projects</a></li>
         </ul>
     </nav>
 
-    <h1>Wordle Clone</h1>
+    <header>
+        <h1>Wordle Clone</h1>
+    </header>
 
     <p>Welcome to the Wordle Clone! I created a simple word-guessing game inspired by the classic Wordle game. In this
         clone, you'll be challenged to guess a hidden word within a limited number of attempts. The game features a

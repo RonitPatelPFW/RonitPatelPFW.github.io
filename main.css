@@ -1,11 +1,13 @@
-/* Reset some default styles */
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
+    color: white;
     font-family: 'Arial', sans-serif;
+    background-color: #1f2223;
 }
 
 /* Navigation bar styles */
@@ -31,7 +33,7 @@ li {
 a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -40,31 +42,34 @@ a {
 a:hover {
     background-color: #ddd;
     color: black;
+    text-decoration: underline;
 }
 
 /* Header styles */
 header {
     text-align: center;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: #1f2223;
 }
 
 /* About section styles */
 #about {
     padding: 50px;
-    background-color: #e6e6e6;
+    margin-bottom: 10px;
+    background-color: #26292b;
 }
 
 /* Contact section styles */
 #contact {
     padding: 50px;
-    background-color: #f2f2f2;
+    color: white;
+    background-color: #26292b;
 }
 
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+#resume {
+    padding: 50px;
+    margin-top: 10px;
+    background-color: #26292b;
 }
+
+

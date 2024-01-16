@@ -6,50 +6,60 @@
     <title>Projects</title>
     <link rel="stylesheet" href="/main.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+    nav {
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 
-        section {
-            margin-bottom: 20px;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-        h3 {
-            color: #007bff;
-        }
+    li {
+        float: left;
+    }
 
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
+    a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        a.back-link {
-            display: block;
-            margin-top: 20px;
-            color: #007bff;
-        }
+    /* Change color on hover */
+    a:hover {
+        background-color: #ddd;
+        color: black;
+        text-decoration: underline;
+    }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects/project.html">Projects</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>My Projects</h1>
+        <p>I'm juggling between classes and other stuff right now, but stil finding time to develop some cool apps on the side.</p>
+
+    </header>
     <section>
         <h3> <a href="wordle-clone/Wordle-Clone.html">Wordle Clone</a></h3>
     </section>
-    <section>
+    <!-- <section>
         <h3>Memecraft ++</h3>
         <h4>Coming Soon...</h4>
-    </section>
-    <a href="../index.html">Back to main Page</a>
+    </section> -->
 </body>
+
 </html>
