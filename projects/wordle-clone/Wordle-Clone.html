@@ -7,14 +7,17 @@
     <title>Wordle Clone</title>
     <style>
         body {
+            margin-left: 10px;
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            margin: 0;
             padding: 0;
             background-color: #1f2223;
             color: white;
         }
 
+        .navbar {
+            margin-left: -10px;
+        }
         nav {
             background-color: #333;
             overflow: hidden;
@@ -80,7 +83,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <ul>
             <li><a href="../../index.html">Home</a></li>
             <li><a href="../project.html">Projects</a></li>
@@ -93,7 +96,7 @@
 
     <p>Welcome to the Wordle Clone! I created a simple word-guessing game inspired by the classic Wordle game. In this
         clone, you'll be challenged to guess a hidden word within a limited number of attempts. The game features a
-        difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts.</p>
+        difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts. Also like the original you can only play once a day</p>
 
     <h2>How to Play</h2>
 
@@ -156,8 +159,8 @@
 
     <ol>
         <li>
-            <p>Clone the repository:</p>
-            <pre><code>https://github.com/RonitPatelPFW/Wordle-Clone.git</code></pre>
+            <p>Clone the repository in desired directory:</p>
+            <pre><code>git clone https://github.com/RonitPatelPFW/Wordle-Clone.git</code></pre>
         </li>
 
         <li>
@@ -197,17 +200,18 @@
         file. Unlike using a static list, I dynamically retrieve the single Wordle word available for the day at the time
         of playing. This ensures a unique and fresh word for each playthrough.</p>
 
-    <p>The game fetches the word from the New York Times Wordle site to maintain freshness and unpredictability. This
-        approach adds an extra layer of challenge and fun to the classic Wordle game, keeping players on their toes with
-        each daily playthrough.</p>
-
     <h2>Technologies Used</h2>
 
     <ul>
         <li>HTML</li>
         <li>CSS</li>
+        <ul>
+            <li>Bootstrap</li>
+        </ul>
         <li>JavaScript</li>
-        <li>Express/Node.js</li>
+        <ul>
+            <li>Express</li>
+        </ul>
     </ul>
 
     <h2>Acknowledgments</h2>
