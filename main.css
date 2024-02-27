@@ -38,6 +38,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 50%;
+}
+
+
 /* Change color on hover */
 a:hover {
     background-color: #ddd;

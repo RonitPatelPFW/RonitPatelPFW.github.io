@@ -5,81 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle Clone</title>
+    <link rel="stylesheet" href="/main.css">
     <style>
         body {
-            margin-left: 10px;
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            padding: 0;
-            background-color: #1f2223;
-            color: white;
-        }
-
-        .navbar {
-            margin-left: -10px;
+            margin-left: 15px;
         }
         nav {
-            background-color: #333;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
+            margin-left: -15px;
         }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        nav li {
-            float: left;
-
-        }
-
-        nav a {
-            display: block;
-            color: white;
-            text-align: left;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        a:hover {
-            background-color: #ddd;
-            color: black;
-            text-decoration: underline;
-        }
-
-        header {
-            text-align: center;
-            padding: 50px;
-            background-color: #1f2223;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        ol, ul {
-            margin-bottom: 20px;
-        }
-
-        pre {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        code {
-            color: #8af;
-        }
-        img {
-            width: 50%;
-        }
-
     </style>
 </head>
 
@@ -95,102 +28,68 @@
         <h1>Wordle Clone</h1>
     </header>
     <h2>Quick Link:</h2>
-    <ol>
+    <ul>
         <a href="https://github.com/RonitPatelPFW/Wordle-Clone">Github</a>
-    </ol>
-    <p>Welcome to the Wordle Clone! I created a simple word-guessing game inspired by the classic Wordle game. In this
+    </ul>
+    <h2>Summary:</h2>
+    <blockquote>Welcome to the Wordle Clone! I created a simple word-guessing game inspired by the classic Wordle game. In this
         clone, you'll be challenged to guess a hidden word within a limited number of attempts. The game features a
-        difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts. Also like the original you can only play once a day.</p>
+        difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts. Also like the original you can only play once a day.
+    </blockquote><br>
 
-    <h2>Start Screen</h2>
-    <img src="./images/Intro.png" alt="intro">
+    <figure>
+        <img src="./images/Intro.png" alt="intro">
+        <figcaption>Here's what the start screen looks like</figcaption>
+    </figure>
 
-    <h2>How to Play</h2>
+    <h2>About the game:</h2>
+    <ol>
+        <h2>There are 3 difficulty settings:</h2>
+        <h3>Easy: 6 attempts</h3>
+        <figure>
+            <img src="./images/easy mode.png" alt="easy">
+        </figure>
+        <h3>Medium: 4 attempts</h3>
+        <figure>
+            <img src="./images/medium mode.png" alt="medium">
+        </figure>
+        <h3>Hard: 2 attempts</h3>
+        <figure>
+            <img src="./images/hard mode.png" alt="hard">
+        </figure>
+    </ol> 
+       
 
     <ol>
-        <li>
-            <h3>Objective:</h3>
-            <ul>
-                <li>The goal is to guess the hidden word.</li>
-                <li>The length of the word is displayed as a box, representing each letter's position.</li>
-            </ul>
-        </li>
-
-        <li>
-            <h3>Difficulty Settings:</h3>
-            <h2>Easy difficulty: 6 attempts</h2>
-            <img src="./images/easy mode.png" alt="easy">
-            <h2>Medium difficulty: 4 attempts</h2>
-            <img src="./images/medium mode.png" alt="medium">
-            <h2>Hard difficulty: 2 attempts</h2>
-            <img src="./images/hard mode.png" alt="hard">
-        </li>
-
-        <li>
-            <h3>Making a Guess:</h3>
-            <ul>
-                <li>Enter a guess in the input field and submit.</li>
-                <li>The game will provide feedback after each guess:
-                    <ul>
-                        <li><strong>Correct Letter and Position (Green Color):</strong> The letter is in the right
-                            place.</li>
-                        <li><strong>Correct Letter, Wrong Position (Yellow Color):</strong> The letter is in the word but
-                            not in the right place.</li>
-                        <li><strong>Incorrect Letter (Grey Color):</strong> The letter is not in the word.</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-
-        <li>
-            <h3>Winning:</h3>
-            <ul>
-                <li>If you guess the word within the allotted attempts, the user wins!</li>
-            </ul>
-        </li>
-        <img src="./images/won_screen.png" alt="intro">
-        <li>
-            <h3>Losing:</h3>
-            <ul>
-                <li>If you exhaust all attempts without guessing the word, the game ends.</li>
-                <li>The hidden word will be revealed.</li>
-            </ul>
-        </li>
-
+        <h2>
+            If you guess the correct word you win!!
+        </h2>
+        <figure>
+            <img src="./images/won_screen.png" alt="intro">
+        </figure>
     </ol>
 
-    <h1>Gameplay:</h1>
     <ol>
-            <ul>
-                <li>Choose your difficulty level and start guessing!</li>
-                <li>If you play again after you already gave an attempt you will see this:</li>
-                <img src="./images/end_screen.png" alt="intro">
-            </ul>
+        <h2>
+            If you play again after you either won or lost, you will see this
+        </h2>
+        <figure>
+            <img src="./images/end_screen.png" alt="intro">
+        </figure>
     </ol>
 
     <h2>Word Source</h2>
-
-    <p>The hidden word in this Wordle Clone is dynamically fetched from the official New York Times Wordle site via a JSON
+    <blockquote>The hidden word in this Wordle Clone is dynamically fetched from the official New York Times Wordle site via a JSON
         file. Unlike using a static list, I dynamically retrieve the single Wordle word available for the day at the time
-        of playing. This ensures a unique and fresh word for each playthrough.</p>
+        of playing. This ensures a unique and fresh word for each playthrough.</blockquote>
 
-    <h2>Technologies Used</h2>
-
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <ul>
-            <li>Bootstrap</li>
-        </ul>
-        <li>JavaScript</li>
-        <ul>
-            <li>Express</li>
-        </ul>
+    <h2>Langauges:</h2>
+    <ol>
+        <ul>HTML</ul>
+        <ul>Bootstrap</ul>
+        <ul>JavaScript</ul>
+        <ul>Express</ul>
     </ul>
-
-    <h2>Acknowledgments</h2>
-
-    <p>This Wordle Clone was created with inspiration from the classic Wordle game.</p>
 
 </body>
 
