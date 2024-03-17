@@ -37,46 +37,57 @@
         difficulty setting, allowing you to choose between easy, medium, and hard levels with varying attempts. Also like the original you can only play once a day.
     </blockquote><br>
 
-    <figure>
-        <img src="./images/Intro.png" alt="intro">
-        <figcaption>Here's what the start screen looks like</figcaption>
-    </figure>
+    
+   
 
     <h2>About the game:</h2>
     <ol>
-        <h2>There are 3 difficulty settings:</h2>
-        <h3>Easy: 6 attempts</h3>
-        <figure>
-            <img src="./images/easy mode.png" alt="easy">
-        </figure>
-        <h3>Medium: 4 attempts</h3>
-        <figure>
-            <img src="./images/medium mode.png" alt="medium">
-        </figure>
-        <h3>Hard: 2 attempts</h3>
-        <figure>
-            <img src="./images/hard mode.png" alt="hard">
-        </figure>
+        <div>
+            <div class="slideshow-container">
+                <div class="slide">
+                    <figure>
+                        <img src="./images/Intro.png" alt="intro">
+                        <figcaption>Here's what the start screen looks like</figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure>
+                        <img src="./images/easy mode.png" alt="easy">
+                        <figcaption>Easy: 6 attempts</figcaption>
+                    </figure>
+                </div> 
+                <div class="slide">
+                    <figure>
+                        <img src="./images/medium mode.png" alt="medium">
+                        <figcaption>Medium: 4 attempts</figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure>
+                        <img src="./images/hard mode.png" alt="hard">
+                        <figcaption>Hard: 2 attempts</figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure>
+                        <img src="./images/won_screen.png" alt="intro">
+                        <figcaption> If you guess the correct word you win!!</figcaption>
+                    </figure>
+                </div> 
+                <div class="slide">
+                    <figure>
+                        <img src="./images/end_screen.png" alt="intro">
+                        <figcaption>  If you tried to play again after you either won or lost, you will see this:</figcaption>
+                    </figure>
+                </div>
+                <a class="prev" onclick="moveSlide(-1)">❮</a>
+                <a class="next" onclick="moveSlide(1)">❯</a>
+            </div>
+            <br>
+        </div>
     </ol> 
-       
 
-    <ol>
-        <h2>
-            If you guess the correct word you win!!
-        </h2>
-        <figure>
-            <img src="./images/won_screen.png" alt="intro">
-        </figure>
-    </ol>
-
-    <ol>
-        <h2>
-            If you tried to play again after you either won or lost, you will see this:
-        </h2>
-        <figure>
-            <img src="./images/end_screen.png" alt="intro">
-        </figure>
-    </ol>
+    </div> 
 
     <h2>Word Source:</h2>
     <blockquote>The hidden word in this Wordle Clone is dynamically fetched from the official New York Times Wordle site via a JSON
@@ -92,5 +103,6 @@
     </ul>
 
 </body>
+<script src="../image.js"></script>
 
 </html>

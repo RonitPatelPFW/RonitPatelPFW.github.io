@@ -21,9 +21,7 @@
         display: inline;
         
     }
-    img {
-        width: 35%;
-    }
+
     </style>
 </head>
 <body>
@@ -81,27 +79,35 @@
 
     <section>
         <h1>Take a look at our game:</h1>
-        <figure>
-            <img src="./images/Load_Snap.png" alt="easy">
-            <figcaption>Manic Menus is about data structures!</figcaption>
-        </figure>
-
-        <figure>
-            <img src="./images/Minigames_Snap.png" alt="easy">
-            <figcaption>Lots of minigames to learn from!</figcaption>
-        </figure>
-
-        <figure>
-            <img src="./images/Stats_Snap.png" alt="easy">
-            <figcaption>View all your scores</figcaption>
-        </figure>
-
-        <figure>
-            <img src="./images/TotalDramaIsland.png" alt="easy">
-            <figcaption>Multiplayer map</figcaption>
-        </figure>
-
+            <div class="slideshow-container">
+                <div class="slide">
+                    <figure>
+                        <img src="./images/Load_Snap.png" alt="easy">
+                        <figcaption>Manic Menus is about data structures!</figcaption>
+                    </figure>
+                </div> 
+                <div class="slide">
+                    <figure>
+                        <img src="./images/Minigames_Snap.png" alt="easy">
+                        <figcaption>Lots of minigames to learn from!</figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure>
+                        <img src="./images/Stats_Snap.png" alt="easy">
+                        <figcaption>View all your scores</figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure>
+                        <img src="./images/TotalDramaIsland.png" alt="easy">
+                        <figcaption>Multiplayer map</figcaption>
+                    </figure>
+                </div>
+                <a class="prev" onclick="moveSlide(-1)">❮</a>
+                <a class="next" onclick="moveSlide(1)">❯</a>
+            </div>
     </section>
-
 </body>
+<script src="../image.js"></script>
 </html>
