@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-page_header: Home
+title: Home
+
 ---
 <style>
     .dark-mode * {
